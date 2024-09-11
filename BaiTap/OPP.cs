@@ -118,7 +118,8 @@ namespace BaiTap
                     dem++;
                 }
             }
-            Console.WriteLine($"So luon cua {n}: " + dem);
+            Console.WriteLine($"So luong cua {n}: " + dem);
+            Console.ReadKey();
         }
     }
 }
